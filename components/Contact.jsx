@@ -42,7 +42,7 @@ const Contact = () => {
                             </div>
                             <div>
                                 <h2 className='py-2'>Roberto Mattus</h2>
-                                <p>Full Stack Developer</p>
+                                <p>Front-End Developer</p>
                                 <p className='py-4'>
                                     I&#39;m available for freelance or full-time positions. Contact
                                     me and let&apos;s talk.
@@ -51,33 +51,34 @@ const Contact = () => {
                             <div>
                                 <p className='uppercase pt-8'>Connect With Me</p>
                                 <div className='flex items-center justify-between py-4'>
-                                <a
-                                    href='https://www.linkedin.com/in/roberto-mattus-b7b615231/'
-                                    target='_blank'
-                                    rel='noreferrer'
-                                >
-                                    <div className='rounded-full shadow-lg shadow-gray-400 p-6 cursor-pointer hover:scale-110 ease-in duration-300'>
-                                    <FaLinkedinIn />
-                                    </div>
-                                </a>
-                                <a
-                                    href='https://api.whatsapp.com/send?phone=529842051122&text=Hello! Are you available? My name is'
-                                    target='_blank'
-                                    rel='noreferrer'
-                                >
-                                    <div className='rounded-full shadow-lg shadow-gray-400 p-6 cursor-pointer hover:scale-110 ease-in duration-300'>
-                                    <FaWhatsapp />
-                                    </div>
-                                </a>
-
-                                <div className='rounded-full shadow-lg shadow-gray-400 p-6 cursor-pointer hover:scale-110 ease-in duration-300'>
-                                    <AiOutlineMail />
-                                </div>
-                                    <a href='../public/assets/cv.pdf' download>
+                                    <a
+                                        href='https://www.linkedin.com/in/roberto-mattus-b7b615231/'
+                                        target='_blank'
+                                        rel='noreferrer'
+                                    >
                                         <div className='rounded-full shadow-lg shadow-gray-400 p-6 cursor-pointer hover:scale-110 ease-in duration-300'>
-                                            <BsFillPersonLinesFill />
+                                        <FaLinkedinIn />
                                         </div>
                                     </a>
+                                    <a
+                                        href='https://api.whatsapp.com/send?phone=529842051122&text=Hello! Are you available? My name is'
+                                        target='_blank'
+                                        rel='noreferrer'
+                                    >
+                                        <div className='rounded-full shadow-lg shadow-gray-400 p-6 cursor-pointer hover:scale-110 ease-in duration-300'>
+                                        <FaWhatsapp />
+                                        </div>
+                                    </a>
+                                    <div className='rounded-full shadow-lg shadow-gray-400 p-6 cursor-pointer hover:scale-110 ease-in duration-300'>
+                                        <AiOutlineMail />
+                                    </div>
+                                    <Link href='/resume'>
+                                        <a>
+                                            <div className='rounded-full shadow-lg shadow-gray-400 p-6 cursor-pointer hover:scale-110 ease-in duration-300'>
+                                                <BsFillPersonLinesFill />
+                                            </div>
+                                        </a>
+                                    </Link>
                                 </div>
                             </div>
                         </div>

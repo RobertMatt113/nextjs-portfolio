@@ -197,13 +197,13 @@ return (
                     <AiOutlineMail />
                 </div>
                 </Link>
-
-                <a href='../public/assets/cv.pdf' download>
-                    <div className='rounded-full shadow-lg shadow-gray-400 p-3 cursor-pointer hover:scale-105 ease-in duration-300'>
-                        <BsFillPersonLinesFill />
-                    </div>
-                </a>
-                
+                <Link href='/resume'>
+                    <a>
+                        <div className='rounded-full shadow-lg shadow-gray-400 p-3 cursor-pointer hover:scale-105 ease-in duration-300'>
+                            <BsFillPersonLinesFill />
+                        </div>
+                    </a>
+                </Link>
             </div>
             </div>
         </div>
